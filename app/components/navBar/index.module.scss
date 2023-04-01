@@ -1,0 +1,20 @@
+@import '../../styles/index.scss';
+
+.container {
+    display: flex;
+    background-color: aqua;
+    height: 50px;
+    align-items: center;
+    position: absolute;
+
+    @include tablet {
+        background-color: black;
+    }
+
+    .nav-content {
+        display: flex;
+        justify-content: space-between;
+        font-size: 15px;
+        gap: 20px;
+    }
+}
