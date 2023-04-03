@@ -1,0 +1,15 @@
+.nav {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  border: blue 1px solid;
+  align-items: center;
+  gap:24px;
+
+  .right-nav{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    border: blue 1px solid;
+  }
+}

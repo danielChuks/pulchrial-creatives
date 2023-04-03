@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+
+
+  .search-field {
+   
+    
+    input {
+        width: 344px;
+        height: 35px;
+        border-bottom-left-radius: 8px;
+        border-top-left-radius: 8px;
+        outline: none;
+        padding-left: 20px;
+    }
+  }
+  .search-glass {
+    display: flex;
+    width: 56px;
+    height: 40px;
+    background-color: #39cdcc;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    cursor: pointer;
+  }
+}
