@@ -1,3 +1,5 @@
+@import "../../../styles/index.scss";
+
 .nav {
   display: flex;
   height: 100px;
@@ -7,6 +9,7 @@
   justify-content: space-between;
   background: #ffffff;
   box-shadow: 3px 0px 20px rgba(0, 0, 0, 0.04);
+  font-family: "Work Sans";
 
   .logo {
     padding-left: 30px;

@@ -1,3 +1,5 @@
+@import '../../../styles/index.scss';
+
 .container {
   width: 283px;
   height: 1695px;
@@ -11,5 +13,6 @@
     display: flex;
     gap: 10px;
     padding: 20px 20px;
+    font-family: 'Work Sans';
   }
 }
