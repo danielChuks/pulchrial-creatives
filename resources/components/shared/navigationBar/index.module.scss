@@ -6,6 +6,10 @@
   gap: 24px;
   justify-content: space-between;
 
+  .logo {
+    padding-left: 30px;
+  }
+
   .right-nav {
     display: flex;
     justify-content: flex-end;
