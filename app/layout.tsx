@@ -1,4 +1,4 @@
-import NavBar from "./components/navBar/NavBar";
+// import NavBar from "./components/navBar/NavBar";
 import "./globals.css";
 
 
@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <NavBar />
+        {/* <NavBar /> */}
         {children}
       </body>
     </html>
