@@ -1,19 +1,18 @@
 .container {
   display: flex;
-
+  background: #ffffff;
+  box-shadow: 3px 0px 20px rgba(0, 0, 0, 0.04);
 
   .search-field {
-   
-    
     input {
-        width: 344px;
-        height: 35px;
-        border-bottom-left-radius: 8px;
-        border-top-left-radius: 8px;
-        outline: none;
-        padding-left: 20px;
-        border: 1px solid #213F7D;
-        color: #545F7D;
+      width: 344px;
+      height: 35px;
+      border-bottom-left-radius: 8px;
+      border-top-left-radius: 8px;
+      outline: none;
+      padding-left: 20px;
+      border: 1px solid #213f7d;
+      color: #545f7d;
     }
   }
   .search-glass {
