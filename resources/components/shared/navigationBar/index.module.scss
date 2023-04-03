@@ -5,6 +5,8 @@
   align-items: center;
   gap: 24px;
   justify-content: space-between;
+  background: #ffffff;
+  box-shadow: 3px 0px 20px rgba(0, 0, 0, 0.04);
 
   .logo {
     padding-left: 30px;
@@ -20,7 +22,6 @@
     .notifications {
       width: 19.67px;
       height: 22.74px;
-  
     }
     .image {
       display: flex;
