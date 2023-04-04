@@ -21,11 +21,13 @@
     padding: 20px 20px;
   }
 
-  .customers-container {
+  .list-container {
     display: flex;
     padding: 20px 20px;
     flex-direction: column;
-
+    .title {
+      padding-bottom: 20px;
+    }
     .customer {
       text-transform: uppercase;
     }
@@ -33,5 +35,4 @@
       display: flex;
     }
   }
-
 }

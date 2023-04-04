@@ -1,8 +1,9 @@
 import styles from "./index.module.scss";
 import { RiArrowDropDownLine } from "react-icons/ri";
-import { ImBriefcase } from "react-icons/im";
+import { ImBriefcase, ImUsers } from "react-icons/im";
 import { MdHouse } from "react-icons/md";
-import CustomersList from "./ListComponent/CustomersList";
+import ItemCard from "./ListComponent/ItemCard";
+import {HiOutlineUserGroup} from 'react-icons/hi';
 
 export default function SideNav() {
   return (
@@ -24,10 +25,31 @@ export default function SideNav() {
         <div>Dashboard</div>
       </div>
 
-      <div className={styles["customers-container"]}>
-        <div className={styles["customer"]}>Customers</div>
+      <div className={styles["list-container"]}>
+        <div className={styles["title"]}>Customers</div>
         <div className={"items-container"}>
-          <CustomersList icon={"icon"} title={"users"} />
+          <ItemCard icon={<ImUsers />} title={"users"} />
+          <ItemCard icon={<HiOutlineUserGroup/>} title={"Guarantors"} />
+          <ItemCard icon={"icon"} title={"loans"} />
+          <ItemCard icon={"icon"} title={"decision models"} />
+          <ItemCard icon={"icon"} title={"savings"} />
+          <ItemCard icon={"icon"} title={"loan request"} />
+          <ItemCard icon={"icon"} title={"whitelist"} />
+          <ItemCard icon={"icon"} title={"karma"} />
+        </div>
+      </div>
+
+      <div className={styles["list-container"]}>
+        <div className={styles["title"]}>Business</div>
+        <div className={"items-container"}>
+          <ItemCard icon={"icon"} title={"users"} />
+          <ItemCard icon={"icon"} title={"users"} />
+          <ItemCard icon={"icon"} title={"users"} />
+          <ItemCard icon={"icon"} title={"users"} />
+          <ItemCard icon={"icon"} title={"users"} />
+          <ItemCard icon={"icon"} title={"users"} />
+          <ItemCard icon={"icon"} title={"users"} />
+
         </div>
       </div>
     </div>
