@@ -1,13 +1,22 @@
 import styles from "./index.module.scss";
+import ItemCard from "./ListComponent/ItemCard";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { ImBriefcase, ImUsers } from "react-icons/im";
-import { MdHouse } from "react-icons/md";
-import ItemCard from "./ListComponent/ItemCard";
+import { MdHouse, MdViewCompact } from "react-icons/md";
 import { HiOutlineUserGroup } from "react-icons/hi";
 import { GiReceiveMoney } from "react-icons/gi";
 import { TbMoneybag } from "react-icons/tb";
-import { FaRegHandshake, FaPiggyBank } from "react-icons/fa";
-import { FiUserCheck, FiUserX } from "react-icons/fi";
+import {
+  FaRegHandshake,
+  FaPiggyBank,
+  FaFan,
+  FaUserCog,
+  FaScroll,
+} from "react-icons/fa";
+import { FiUserCheck, FiUserX, FiDivideCircle } from "react-icons/fi";
+import { BsHouseHeart, BsFillDatabaseFill } from "react-icons/bs";
+import { BiTransferAlt, BiNotepad } from "react-icons/bi";
+import { AiOutlineBarChart } from "react-icons/Ai";
 
 export default function SideNav() {
   return (
@@ -46,13 +55,24 @@ export default function SideNav() {
       <div className={styles["list-container"]}>
         <div className={styles["title"]}>Business</div>
         <div className={"items-container"}>
-          <ItemCard icon={"icon"} title={"users"} />
-          <ItemCard icon={"icon"} title={"users"} />
-          <ItemCard icon={"icon"} title={"users"} />
-          <ItemCard icon={"icon"} title={"users"} />
-          <ItemCard icon={"icon"} title={"users"} />
-          <ItemCard icon={"icon"} title={"users"} />
-          <ItemCard icon={"icon"} title={"users"} />
+          <ItemCard icon={<ImBriefcase />} title={"organisation"} />
+          <ItemCard icon={<GiReceiveMoney />} title={"loan product"} />
+          <ItemCard icon={<BsHouseHeart />} title={"savings product"} />
+          <ItemCard icon={<BsFillDatabaseFill />} title={"fees and charges"} />
+          <ItemCard icon={<BiTransferAlt />} title={"transactions"} />
+          <ItemCard icon={<FaFan />} title={"services"} />
+          <ItemCard icon={<FaUserCog />} title={"service account"} />
+          <ItemCard icon={<FaScroll />} title={"settlements"} />
+          <ItemCard icon={<AiOutlineBarChart />} title={"reports"} />
+        </div>
+      </div>
+
+      <div className={styles["list-container"]}>
+        <div className={styles["title"]}>settings</div>
+        <div className={"items-container"}>
+          <ItemCard icon={<MdViewCompact />} title={"preferences"} />
+          <ItemCard icon={<FiDivideCircle />} title={"fees and charges"} />
+          <ItemCard icon={<BiNotepad />} title={"audit logs"} />
         </div>
       </div>
     </div>
