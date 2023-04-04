@@ -3,7 +3,11 @@ import { RiArrowDropDownLine } from "react-icons/ri";
 import { ImBriefcase, ImUsers } from "react-icons/im";
 import { MdHouse } from "react-icons/md";
 import ItemCard from "./ListComponent/ItemCard";
-import {HiOutlineUserGroup} from 'react-icons/hi';
+import { HiOutlineUserGroup } from "react-icons/hi";
+import { GiReceiveMoney } from "react-icons/gi";
+import { TbMoneybag } from "react-icons/tb";
+import { FaRegHandshake, FaPiggyBank } from "react-icons/fa";
+import { FiUserCheck, FiUserX } from "react-icons/fi";
 
 export default function SideNav() {
   return (
@@ -29,13 +33,13 @@ export default function SideNav() {
         <div className={styles["title"]}>Customers</div>
         <div className={"items-container"}>
           <ItemCard icon={<ImUsers />} title={"users"} />
-          <ItemCard icon={<HiOutlineUserGroup/>} title={"Guarantors"} />
-          <ItemCard icon={"icon"} title={"loans"} />
-          <ItemCard icon={"icon"} title={"decision models"} />
-          <ItemCard icon={"icon"} title={"savings"} />
-          <ItemCard icon={"icon"} title={"loan request"} />
-          <ItemCard icon={"icon"} title={"whitelist"} />
-          <ItemCard icon={"icon"} title={"karma"} />
+          <ItemCard icon={<HiOutlineUserGroup />} title={"Guarantors"} />
+          <ItemCard icon={<TbMoneybag />} title={"loans"} />
+          <ItemCard icon={<FaRegHandshake />} title={"decision models"} />
+          <ItemCard icon={<FaPiggyBank />} title={"savings"} />
+          <ItemCard icon={<GiReceiveMoney />} title={"loan request"} />
+          <ItemCard icon={<FiUserCheck />} title={"whitelist"} />
+          <ItemCard icon={<FiUserX />} title={"karma"} />
         </div>
       </div>
 
@@ -49,7 +53,6 @@ export default function SideNav() {
           <ItemCard icon={"icon"} title={"users"} />
           <ItemCard icon={"icon"} title={"users"} />
           <ItemCard icon={"icon"} title={"users"} />
-
         </div>
       </div>
     </div>
