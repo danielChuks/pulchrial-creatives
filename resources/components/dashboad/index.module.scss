@@ -1,0 +1,25 @@
+@import "../../styles/index.scss";
+
+.body-section {
+  display: flex;
+  gap: 26px;
+
+  .container {
+    .title {
+      text-transform: capitalize;
+      color: #213f7d;
+      font-family: "Work Sans";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      padding-bottom: 40px;
+    }
+
+    .card-section {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      gap: 26px;
+    }
+  }
+}
