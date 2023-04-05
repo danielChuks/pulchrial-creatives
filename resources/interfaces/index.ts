@@ -1,3 +1,4 @@
 export * from './toggle.interface';
 export * from './fetch.interface';
-export * from './card.interface'
+export * from './card.interface';
+export * from './colors.interface';
