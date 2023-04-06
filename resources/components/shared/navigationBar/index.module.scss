@@ -6,11 +6,13 @@
   width: 100%;
   align-items: center;
   gap: 24px;
-  justify-content: space-between;
   background: #ffffff;
   box-shadow: 3px 0px 20px rgba(0, 0, 0, 0.04);
   font-family: "Work Sans";
 
+  .search-bar{
+    padding-left: 130px;
+  }
 
   .logo {
     padding-left: 30px;
@@ -21,7 +23,8 @@
     justify-content: flex-end;
     gap: 30px;
     align-items: center;
-    padding-right: 30px;
+    padding-right: 60px;
+    width: 100%;
 
     .notifications {
       width: 19.67px;

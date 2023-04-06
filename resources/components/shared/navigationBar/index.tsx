@@ -13,7 +13,7 @@ export default function TopNav() {
       <div className={styles["logo"]}>
         <Image src={logo} height={36} width={138.44} alt="banner" />
       </div>
-      <div>
+      <div className={styles['search-bar']}>
         <SearchBar />
       </div>
 
