@@ -9,7 +9,7 @@
   border-radius: 4px;
   padding-left: 30px;
   padding-top: 20px;
-  gap: 12px;
+  gap: 14px;
 
   .icon {
     display: flex;
@@ -18,5 +18,15 @@
     justify-content: center;
     align-items: center;
     border-radius: 100%;
+  }
+
+  .title{
+    text-transform: uppercase;
+    color:#545F7D;
+  }
+  .numbers {
+    color: #213f7d;
+    font-weight: 600;
+    font-size: 24px;
   }
 }

@@ -17,10 +17,10 @@ export default function Card({ icon, title, value, type }: CardProps) {
         }}
         className={styles["icon"]}
       >
-        <span>{icon}</span>
+        {icon}
       </div>
-      <div>{title}</div>
-      <div>{value}</div>
+      <div className={styles['title']}>{title}</div>
+      <div className={styles["numbers"]}>{value}</div>
     </div>
   );
 }
