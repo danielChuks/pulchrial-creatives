@@ -20,7 +20,12 @@ export default function DashboardPage() {
         <div className={styles["container"]}>
           <div className={styles["title"]}> users </div>
           <div className={styles["card-section"]}>
-            <Card icon={<FiUsers />} title={"users"} value={Math.floor(2453)} type={CARD_TYPES.USERS} />
+            <Card
+              icon={<FiUsers />}
+              title={"users"}
+              value={Math.floor(2453)}
+              type={CARD_TYPES.USERS}
+            />
             <Card
               icon={<HiOutlineUserGroup />}
               title={"active users"}

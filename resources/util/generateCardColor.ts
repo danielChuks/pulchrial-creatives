@@ -5,7 +5,6 @@ interface ColorsProps {
   style? : CSSProperties;
 }
 
-
 export function generateCardColor(cardType: CARD_TYPES): ColorsProps {
   switch (cardType) {
     case CARD_TYPES.USERS:
