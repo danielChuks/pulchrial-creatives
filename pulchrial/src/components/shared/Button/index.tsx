@@ -1,22 +1,43 @@
-import { useState } from 'react';
+import { ReactNode, useState } from 'react';
 import styles from './index.module.scss';
+import {ImSpinner10} from 'react-icons/im';
 
-export function Button() {
-    const [loading, setLoading] = useState('false');
-    const [error, setError] = useState('false');
-    const [success, setSuccess] = useState('false');
+interface ButtonProps {
+    isLoading?: boolean;
+    error?: boolean;
+    success?: boolean;
+    onClick?: () => void;
+    disabled?: boolean;
+    errorMessage?: string;
+    title?: string;
+    children?: ReactNode;
+}
 
-
-
-  return (
-      <div className={styles['container']}>
-          <button type='submit' className={styles['button']}
-          
-          >
-              {/* {loading ? 
-                  " Sign up " } */}
-          </button>
-
-    </div>
-  )
+export function Button({
+    isLoading = false,
+    error = false,
+    success,
+    onClick,
+    disabled = false,
+    errorMessage = 'There was an error while trying to submit this form',
+    title,
+    children,
+}: ButtonProps) {
+    return (
+        <>
+            <button
+                type="submit"
+                className={styles['button']}
+                onClick={disabled || isLoading ? undefined : onClick}
+                title={title}
+            >
+                {isLoading ? (
+                    <ImSpinner10 className={styles['spinner']} />
+                ) : (
+                    children
+                )}
+            </button>
+            {error && <div>{errorMessage}</div>}
+        </>
+    );
 }
