@@ -1,6 +1,6 @@
 import { ReactNode, useState } from 'react';
 import styles from './index.module.scss';
-import {ImSpinner10} from 'react-icons/im';
+import { ImSpinner9 } from "react-icons/im";
 
 interface ButtonProps {
     isLoading?: boolean;
@@ -27,12 +27,12 @@ export function Button({
         <>
             <button
                 type="submit"
-                className={styles['button']}
+                className={styles["button"]}
                 onClick={disabled || isLoading ? undefined : onClick}
                 title={title}
             >
                 {isLoading ? (
-                    <ImSpinner10 className={styles['spinner']} />
+                    <ImSpinner9 className={styles["spinner"]} />
                 ) : (
                     children
                 )}

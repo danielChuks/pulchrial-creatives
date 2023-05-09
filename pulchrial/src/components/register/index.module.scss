@@ -1,35 +1,33 @@
 @import "../../app/styles/index.scss";
 
-.container{
+.container {
     display: flex;
     justify-content: space-between;
-    border: red solid 1px ;
+    // border: red solid 1px;
     font-family: "Libre Baskerville";
-     color: $foundationBlack;
-    
-    
+    color: $foundationBlack;
 
-    .image-section{
+    .image-section {
         border: 1px solid red;
         height: 80vh;
         width: 100%;
         display: none !important;
     }
 
-    .form-section{
-        display:  flex;
+    .form-section {
+        display: flex;
         align-items: center;
         flex-direction: column;
         padding-top: 100px;
-        border: 1px solid blue;
-         width: 100%;
-         height: 80vh;
-         gap: 25px;
-         
+        // border: 1px solid blue;
+        width: 100%;
+        height: 80vh;
+        gap: 25px;
+
         .register-banner {
-           font-size: 20px;
+            font-size: 20px;
         }
-        .form{
+        .form {
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -39,6 +37,10 @@
             input {
                 padding: 14px 14px;
                 width: 250px;
+                border-radius: 8px;
+                // border: none;
+                outline: none;
+                border-color: $SkyBlue;
             }
         }
     }
