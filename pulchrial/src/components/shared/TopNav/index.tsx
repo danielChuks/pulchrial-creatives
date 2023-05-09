@@ -6,11 +6,16 @@ export default function index() {
         <div className={styles["container"]}>
             <div className={styles["logo"]}>pulchrial</div>
             <div className={styles["detail-section"]}>
-                {/* <div>About</div>
-                <div>Contact </div> */}
-                <div className={styles['notification']}>
+                <div className={styles['sub-section']}>
+                    <div>About</div>
+                    <div>Contact </div>
+                </div>
+
+                <div className={styles["notification"]}>
                     <span>3</span>
-                    <IoIosNotificationsOutline className={styles['notification-icon'] } />
+                    <IoIosNotificationsOutline
+                        className={styles["notification-icon"]}
+                    />
                 </div>
                 <div className={styles["avi"]}>
                     <img
