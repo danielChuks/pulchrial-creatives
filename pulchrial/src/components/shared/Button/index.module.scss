@@ -2,16 +2,16 @@
 
 .button {
     width: 285px;
-    color: $foundationBlack;
+    color: $skyBlue;
     height: 40px;
-    background-color: $skyBlue;
+    background-color: $foundationBlack;
     cursor: pointer;
     border-radius: 10px;
     transition: background-color 0.3s ease;
 }
 
 .button:hover {
-    background-color: $skyBlue ;
+    background-color: $skyBlue;
     color: $foundationBlack;
 }
 
