@@ -1,11 +1,19 @@
-import React from 'react';
+import { FiSettings } from "react-icons/fi";
+import styles from './index.module.scss';
+
 
 export default function SideBar() {
-  return (
-      <div>
-          <h1>SideBar</h1>
-          <h1>SideBar</h1>
-          <h1>SideBar</h1>
-      </div>
-  );
+    return (
+        <div className={styles['container']}>
+            <div className={styles['content']}>
+                <div>About</div>
+                <div>Contact</div>
+            </div>
+            <div>
+                <div className={styles['settings']}>
+                    <FiSettings /> <span>Settings</span>
+                </div>
+            </div>
+        </div>
+    );
 }
