@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import styles from "./index.module.scss";
 import { Notification } from "../notification";
 import { AiOutlineMenu } from "react-icons/ai";
@@ -35,7 +35,11 @@ export default function TopNav() {
                 </div>
             </div>
 
-            {!showSidebar && <SideBar />}
+            {!showSidebar && (
+                <div className={styles['sidebar']}>
+                    <SideBar />
+                </div>
+            )}
         </>
     );
 }
