@@ -49,7 +49,7 @@ export function RegisterComponent() {
     const [formData, setFormData] = useState(initialValues);
     const { firstName, lastName, email, password, confirmPassword } = formData;
 
-    // const router = useRouter();
+    const router = useRouter();
 
     const handleChange = (event: any) => {
         const name: KEYS = event.target.name;
@@ -66,28 +66,38 @@ export function RegisterComponent() {
         }));
     };
 
-    const formValid = password.value.length < 6 && confirmPassword.value !== password.value;
+    const formValid =
+        firstName.value !== "" &&
+        lastName.value !== "" &&
+        email.value !== "" &&
+        password.value !== "" &&
+        confirmPassword.value !== "";
 
     const handleClick = async () => {
         setIsLoading(true);
-        if (!formValid) {
+        if (formValid === true) {
+            setTimeout(() => {
+                setIsLoading(false);
+                setSuccess(true);
+            }, 3000);
+        } else {
             setIsLoading(false);
-            setSuccess(false);
             setError(true);
-        }
-        else {
-            setSuccess(true)
-            setIsLoading(false);
         }
     };
 
     useEffect(() => {
-        handleClick();
+        if (success === true) {
+            router.push(`dashboard/home-page`);
+            setTimeout(() => {
+                setSuccess(false);
+            }, 3000);
+        }
     }, [success]);
 
     return (
         <>
-            {isLoading ? (
+            {success ? (
                 <LoadingScreen />
             ) : (
                 <div className={styles["container"]}>
@@ -167,8 +177,7 @@ export function RegisterComponent() {
                                 title="Submit"
                             >
                                 Submit
-                                </Button>
-                                
+                            </Button>
                         </div>
                     </div>
                 </div>

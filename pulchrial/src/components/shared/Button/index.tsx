@@ -37,7 +37,7 @@ export function Button({
                     children
                 )}
             </button>
-            {error && <div>{errorMessage}</div>}
+            {error && <div className={styles['error-message']}>{errorMessage}</div>}
         </>
     );
 }
