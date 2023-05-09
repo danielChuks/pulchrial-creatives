@@ -6,7 +6,7 @@ import SideBar from '../sideMenu';
 import { useState } from 'react';
 
 export default function TopNav() {
-    const [showSidebar, setShowSidebar] = useState(true);
+    const [showSidebar, setShowSidebar] = useState(false);
 
     const toggle = () => {
         setShowSidebar(!showSidebar);
@@ -25,7 +25,8 @@ export default function TopNav() {
                         <div>Contact </div>
                     </div>
                     <Notification />
-                    <div className={styles['avi']}>
+                    <div className={styles['avi']}
+                    >
                         <img
                             src={
                                 'https://res.cloudinary.com/dhkgwi02z/image/upload/v1683640119/cld-sample.jpg'
