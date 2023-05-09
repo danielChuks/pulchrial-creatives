@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import styles from "./index.module.scss";
 import { Button } from "../shared/Button";
 import { LoadingScreen } from "../shared/LoadingScreen";
+import { useRouter } from "next/navigation";
 
 const initialValues = {
     firstName: {
@@ -48,7 +49,7 @@ export function RegisterComponent() {
     const [formData, setFormData] = useState(initialValues);
     const { firstName, lastName, email, password, confirmPassword } = formData;
 
-    //   const router = useRouter();
+    const router = useRouter();
 
     const handleChange = (event: any) => {
         const name: KEYS = event.target.name;
@@ -87,6 +88,7 @@ export function RegisterComponent() {
 
     useEffect(() => {
         if (success === true) {
+            router.push("/dashboard/home-page");
             setTimeout(() => {
                 setSuccess(false);
             }, 3000);

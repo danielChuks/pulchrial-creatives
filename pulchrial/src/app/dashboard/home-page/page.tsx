@@ -1,7 +1,7 @@
-import React from 'react'
+import TopNav  from '../../../components/shared/TopNav/index'
 
 export default function Home() {
   return (
-    <div> { 'Home page  '}</div>
+    <div> <TopNav /> </div>
   )
 }
