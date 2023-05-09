@@ -9,7 +9,15 @@
     align-items: center;
     background-color: #3c1449;
     color: azure;
-    
+
+    .toggle {
+        display: contents;
+
+        @include tablet {
+            display: none;
+        }
+    }
+
     .logo {
         cursor: pointer;
     }
@@ -35,33 +43,10 @@
 
         .sub-section {
             display: none;
-            
-
 
             @include tablet {
                 display: flex !important;
                 gap: 100px;
-            }
-        }
-
-        .notification {
-            position: relative;
-            span {
-                position: absolute;
-                top: -1px;
-                right: -0px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                background-color: red;
-                color: white;
-                width: 13px;
-                height: 13px;
-                border-radius: 100%;
-                font-size: 10px;
-            }
-            .notification-icon {
-                font-size: 25px;
             }
         }
     }
