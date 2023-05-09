@@ -60,3 +60,9 @@
         }
     }
 }
+
+.sideBar-wrapper{
+    @include tablet {
+        display: none;
+    }
+}
