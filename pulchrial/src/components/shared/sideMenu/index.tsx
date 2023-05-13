@@ -9,18 +9,21 @@ export default function SideBar() {
         <div className={styles['container']}>
             <div className={styles['content']}>
                 <div className={styles['florish']}>
-                    <Link href={'./'}>
-                        <div>
-                            <BsScissors />
-                        </div>
+                    <div>
+                        <BsScissors />
+                    </div>
+                    <Link href={'/'}>
                         <div>Florish</div>
                     </Link>
                 </div>
+
                 <div className={styles['contact']}>
                     <div>
                         <MdOutlineConnectWithoutContact />
                     </div>
-                    <div>Contact us</div>
+                    <Link href={'/'}>
+                        <div>Contact us</div>
+                    </Link>
                 </div>
             </div>
             <div>
