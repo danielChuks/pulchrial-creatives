@@ -1,0 +1,9 @@
+@import '../../app/styles/index.scss';
+
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 40px;
+    gap: 50px;
+}

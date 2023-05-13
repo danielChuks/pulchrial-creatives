@@ -15,8 +15,23 @@
 
 
     .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         font-family: "Libre Baskerville";
         font-size: 12px;
+        gap: 20px;
+
+       
+
+        .florish {
+            display: flex;
+            //gap:10px;
+        }
+        .contact{
+            display: flex;
+            gap: 10px;
+        }
     }
 
     .settings {

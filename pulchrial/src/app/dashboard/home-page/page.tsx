@@ -1,7 +1,11 @@
-import TopNav  from '../../../components/shared/TopNav/index'
+import Dashboard from '@/components/dashboard';
+import TopNav from '@/components/shared/TopNav';
 
-export default function Home() {
-  return (
-    <div> <TopNav /> </div>
-  )
+export default function HomePage() {
+    return (
+        <div>
+            <TopNav />
+            <Dashboard />
+        </div>
+    );
 }

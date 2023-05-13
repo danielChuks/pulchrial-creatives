@@ -36,7 +36,7 @@ export default function TopNav() {
                 </div>
             </div>
             <div className={styles['sideBar-wrapper']}>
-                {!showSidebar && (
+                {showSidebar && (
                     <div className={styles['sidebar']}>
                         <SideBar />
                     </div>
