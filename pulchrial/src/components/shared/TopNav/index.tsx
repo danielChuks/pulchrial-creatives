@@ -1,8 +1,8 @@
 'use client';
 import styles from './index.module.scss';
-import { Notification } from '../notification';
+import { Notification } from '../Notification';
 import { AiOutlineMenu } from 'react-icons/ai';
-import SideBar from '../sideMenu';
+import SideBar from '../SideMenu';
 import { useState } from 'react';
 
 export default function TopNav() {
@@ -18,7 +18,7 @@ export default function TopNav() {
                 <div className={styles['toggle']} onClick={toggle}>
                     <AiOutlineMenu />
                 </div>
-                <div className={styles['logo']}>pulchrial</div>
+                <div className={styles['logo']}>Pulchrial</div>
                 <div className={styles['detail-section']}>
                     <div className={styles['sub-section']}>
                         <div>About</div>
