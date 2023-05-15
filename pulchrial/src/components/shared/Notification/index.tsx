@@ -1,10 +1,6 @@
 import styles from "./index.module.scss";
 import { IoIosNotificationsOutline } from "react-icons/io";
 
-
-
-
-
 export function Notification() {
     return (
         <div className={styles["notification"]}>

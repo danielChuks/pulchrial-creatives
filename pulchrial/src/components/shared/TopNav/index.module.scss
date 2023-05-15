@@ -3,15 +3,21 @@
 .container {
     display: flex;
     justify-content: space-between;
-    padding: 20px 20px;
-    font-family: 'Familjen Grotesk';
+    padding: 20px 20px ;
+    font-family: "Familjen Grotesk";
     align-items: center;
     background-color: #3c1449;
     color: azure;
-
+    // position: fixed;
+    // top: 0;
+    // width: 100%;
+    // z-index: 999;
+    // border: red solid 1px;
+    
 
     .toggle {
         display: contents;
+        width: 100%;
 
         @include tablet {
             display: none;
@@ -25,6 +31,7 @@
     @include tablet {
         display: flex;
         justify-content: space-evenly;
+        // width: 100%;
     }
 
     .detail-section {
@@ -53,7 +60,6 @@
 
     .avi {
         img {
-            background-color: blue;
             width: 30px;
             height: 30px;
             border-radius: 100%;
@@ -61,7 +67,7 @@
     }
 }
 
-.sideBar-wrapper{
+.sideBar-wrapper {
     @include tablet {
         display: none;
     }

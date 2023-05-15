@@ -5,6 +5,8 @@
     justify-content: center;
     padding: 20px 20px;
     gap: 50px;
+    position: relative;
+    // padding-top: 70px;
 
     .content {
         display: flex;
@@ -13,6 +15,7 @@
         font-size: 20px;
         padding-top: 20px;
         color: #3c1449;
+        position: relative;
 
         @include tablet {
             display: block;
@@ -73,17 +76,16 @@
             display: flex;
             gap: 50px;
             width: 100%;
-            min-width: 500px;
+            background-color: aliceblue;
 
             .fash-col-1 {
                 display: flex;
                 justify-content: center;
-                width: 100%;
+                width: 702px;
                 border-radius: 10px;
                 img {
-                    width: 600px;
+                    width: 100%;
                     height: 100%;
-                    border-radius: 10px;
                 }
             }
 
@@ -91,20 +93,20 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                width: 100%;
+                width: 702px;
                 color: #3c1449;
                 font-size: 20px;
                 border-radius: 10px;
-                background-color: aliceblue;
 
                 .styling-text {
-                    width: 600px;
+                    width: 100%;
                 }
             }
         }
     }
 
     .fashion-display-2 {
+        background-color: aliceblue;
         display: block;
         padding-top: 30px;
         font-size: 12px;
@@ -120,17 +122,16 @@
 
         @include tablet {
             display: flex;
-            gap: 50px;
-            width: 100%;
-            min-width: 500px;
+            gap: 20px;
+            flex-direction: row-reverse;
 
             .fash-col-1 {
                 display: flex;
                 justify-content: center;
-                width: 100%;
+                width: 702px;
                 border-radius: 10px;
                 img {
-                    width: 600px;
+                    width: 100%;
                     height: 100%;
                 }
             }
@@ -139,14 +140,14 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                width: 100%;
                 color: #3c1449;
                 font-size: 20px;
-                border-radius: 10px;
                 background-color: aliceblue;
+                width: 702px;
 
                 .styling-text {
-                    width: 600px;
+                    width: 100%;
+                    padding-right: 30px;
                 }
             }
         }

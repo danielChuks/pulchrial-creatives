@@ -4,7 +4,6 @@ import TopNav from '@/components/shared/TopNav';
 export default function HomePage() {
     return (
         <div>
-            <TopNav />
             <Dashboard />
         </div>
     );
