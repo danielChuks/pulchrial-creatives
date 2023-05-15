@@ -22,10 +22,10 @@ export default function TopNav() {
                 <div className={styles["logo"]}>Pulchrial</div>
                 <div className={styles["detail-section"]}>
                     <div className={styles["sub-section"]}>
-                        <Link href={"/about"}>
+                        <Link href={"/about"} className={styles["link"]}>
                             <div className={styles["link"]}>About</div>
                         </Link>
-                        <Link href={"/contact"}>
+                        <Link href={"/contact"} className={styles["link"]}>
                             <div className={styles["link"]}>Contact</div>
                         </Link>
                     </div>

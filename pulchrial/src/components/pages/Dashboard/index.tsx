@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./index.module.scss";
-import TopNav from "../shared/TopNav";
+import TopNav from "../../shared/TopNav";
 
 export default function Dashboard() {
     return (

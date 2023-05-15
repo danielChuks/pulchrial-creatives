@@ -1,10 +1,11 @@
 import React from 'react';
-import LoginComponent from '../../../components/Register';
+import AboutPage from '@/components/pages/About';
+
 
 export default function () {
     return (
         <div>
-            <LoginComponent />
+            <AboutPage />
         </div>
     );
 }
