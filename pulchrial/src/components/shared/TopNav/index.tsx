@@ -19,7 +19,11 @@ export default function TopNav() {
                 <div className={styles["toggle"]} onClick={toggle}>
                     <AiOutlineMenu />
                 </div>
-                <div className={styles["logo"]}>Pulchrial</div>
+                <div className={styles["logo"]}>
+                    <Link href={"/dashboard/home"} className={styles["link"]}>
+                        Pulchrial{" "}
+                    </Link>
+                </div>
                 <div className={styles["detail-section"]}>
                     <div className={styles["sub-section"]}>
                         <Link href={"/about"} className={styles["link"]}>

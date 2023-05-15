@@ -8,11 +8,11 @@
     align-items: center;
     background-color: #3c1449;
     color: azure;
-    // position: fixed;
-    // top: 0;
-    // width: 100%;
-    // z-index: 999;
-    // border: red solid 1px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
 
     .toggle {
         display: contents;
@@ -24,13 +24,20 @@
     }
 
     .logo {
+        .link {
+            color: white;
+            text-decoration: none;
+        }
         cursor: pointer;
     }
 
     @include tablet {
         display: flex;
         justify-content: space-evenly;
-        // width: 100%;
+        .link {
+            color: white;
+            text-decoration: none;
+        }
     }
 
     .detail-section {
