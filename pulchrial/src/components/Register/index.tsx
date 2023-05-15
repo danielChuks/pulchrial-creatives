@@ -88,7 +88,7 @@ export function RegisterComponent() {
 
     useEffect(() => {
         if (success === true) {
-            router.push("/dashboard/home-page");
+            router.push("/dashboard/home");
             setTimeout(() => {
                 setSuccess(false);
             }, 3000);

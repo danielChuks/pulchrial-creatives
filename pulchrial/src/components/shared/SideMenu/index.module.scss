@@ -1,4 +1,4 @@
-@import "../../../app//styles/index.scss";
+@import '../../../app//styles/index.scss';
 
 .container {
     position: absolute !important;
@@ -6,33 +6,50 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 20px;
-    width: 35%;
-    // background-color: rgb(255, 252, 252);
-    background-color:  #3c1449;
-    border-right: 1px solid rgb(204, 219, 221);
-    height: 100%;
-    z-index : 9999;
+    width: 50%;
+    background-color: aliceblue;
+    height: 91vh;
+    z-index: 9999;
 
+    .toggle {
+        display: contents;
+        width: 100%;
+        color: white;
+        border: white 1px solid;
+
+        @include tablet {
+            display: none;
+        }
+    }
     .content {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        font-family: "Familjen Grotesk";
+        font-family: 'Familjen Grotesk';
         font-size: 12px;
         gap: 20px;
+        width: 100%;
+        color: #3c1449;
 
         .florish {
             display: flex;
             gap: 10px;
+            color: #3c1449;
 
             .link {
-                color: white;
+                color: #3c1449;
                 text-decoration: none;
             }
         }
         .contact {
             display: flex;
             gap: 10px;
+            color: #3c1449;
+
+            .link {
+                color: #3c1449;
+                text-decoration: none;
+            }
         }
     }
 
@@ -41,5 +58,7 @@
         display: flex;
         align-items: center;
         gap: 5px;
+        color: #3c1449;
+        font-family: 'Familjen Grotesk';
     }
 }

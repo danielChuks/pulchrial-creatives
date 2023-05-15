@@ -16,7 +16,6 @@
 
     .toggle {
         display: contents;
-        width: 100%;
 
         @include tablet {
             display: none;
@@ -79,6 +78,8 @@
 }
 
 .sideBar-wrapper {
+    padding-top: 79px;
+
     @include tablet {
         display: none;
     }
