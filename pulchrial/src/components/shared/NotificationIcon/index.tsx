@@ -1,11 +1,17 @@
 import styles from "./index.module.scss";
 import { IoIosNotificationsOutline } from "react-icons/io";
 
-export function Notification() {
+interface NotificationProps {
+    onClick: () => void;
+}
+
+export function Notification({ onClick }: NotificationProps) {
+    
+
     return (
         <div className={styles["notification"]}>
             <span>3</span>
-            <IoIosNotificationsOutline
+            <IoIosNotificationsOutline onClick={onClick}
                 className={styles["notification-icon"]}
             />
         </div>

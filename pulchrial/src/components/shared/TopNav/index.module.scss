@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-between;
     padding: 20px 20px;
-    font-family: 'Dancing Script';
+    font-family: "Dancing Script";
     align-items: center;
     background-color: #3c1449;
     color: azure;
@@ -27,6 +27,7 @@
             color: white;
             text-decoration: none;
         }
+
         cursor: pointer;
     }
 
@@ -36,6 +37,7 @@
         .link {
             color: white;
             text-decoration: none;
+            font-size: 20px;
         }
     }
 
@@ -55,6 +57,10 @@
 
         .sub-section {
             display: none;
+            .link:hover {
+                transition: all 1s;
+                transform: scale(1.1);
+            }
 
             @include tablet {
                 display: flex !important;
@@ -63,6 +69,10 @@
                 .link {
                     color: white;
                     text-decoration: none;
+                }
+                .link:hover {
+                    transition: all 1s;
+                    transform: scale(1.1);
                 }
             }
         }
