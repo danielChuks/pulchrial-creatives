@@ -55,16 +55,17 @@ export function RegisterComponent() {
         const name: KEYS = event.target.name;
         const value: string = event.target.value;
 
-        setFormData((data) => ({
-            ...data,
+        setFormData((prev) => ({
+            ...prev,
             [name]: {
-                ...data[name],
+                ...prev[name],
                 value,
                 error: value === " " ? "Field cannot be empty" : value,
                 touched: true,
             },
         }));
     };
+
 
     const formValid =
         firstName.value !== "" &&
