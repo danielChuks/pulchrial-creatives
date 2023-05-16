@@ -9,7 +9,7 @@
 
     .content {
         display: flex;
-        font-family: "Familjen Grotesk";
+        font-family: "Dancing Script";
         font-weight: 200px;
         font-size: 20px;
         padding-top: 20px;
@@ -27,6 +27,8 @@
         .bg-content {
             font-size: 20px;
             font-weight: 550;
+            line-height: 30px;
+
             span {
                 color: black;
             }
@@ -34,22 +36,21 @@
                 font-size: 15px;
                 font-style: italic;
                 padding-left: 20px;
-                font-family: "Franklin Gothic Medium", "Arial Narrow", Arial,
-                    sans-serif;
             }
             @include tablet {
                 font-size: 40px;
                 margin-top: 180px;
                 padding-left: 60px;
+                font-family: "Dancing Script";
 
                 span {
                     padding-right: 8px;
                     color: black;
+                    font-family: "Dancing Script";
                 }
                 .motto {
                     font-size: 30px;
-                    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial,
-                        sans-serif;
+                    font-family: "Dancing Script";
                     font-style: italic;
                     padding-top: 30px;
                     padding-left: 100px;
@@ -62,6 +63,9 @@
         display: block;
         padding-top: 50px;
         font-size: 12px;
+        font-size: 15px;
+        color: #3c1449;
+        line-height: 30px;
 
         img {
             width: 100%;
@@ -106,8 +110,10 @@
     .fashion-display-2 {
         display: block;
         padding-top: 30px;
-        font-size: 12px;
+        font-size: 15px;
         padding-bottom: 50px;
+        color: #3c1449;
+        line-height: 30px;
 
         img {
             width: 100%;

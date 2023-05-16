@@ -7,11 +7,11 @@ export default function AboutPage() {
         <>
             <TopNav />
             <div className={styles["container"]}>
-                <div className={styles["logo"]}>Pulchrial Creatives</div>
+                <div className={styles["logo"]}>About Creatives</div>
                 <div className={styles["item-container"]}>
                     <div className={styles["image"]}>
                         <img
-                            src={`https://res.cloudinary.com/dhkgwi02z/image/upload/v1684142318/model-in-gold-fashion_gx7kgk.jpg`}
+                            src={`https://res.cloudinary.com/dhkgwi02z/image/upload/v1684095458/pulchrial-creatives/IMG_0011_hpsnri.jpg`}
                         />
                     </div>
                     <div className={styles["text"]}>
@@ -48,12 +48,7 @@ export default function AboutPage() {
                         craftsmanship. We also prioritize sustainability and
                         ethical practices in our production process, ensuring
                         that our clothing is not only beautiful but also
-                        responsible. At Pulchrial Creatives, we offer a wide
-                        range of clothing for both men and women, including
-                        dresses, skirts, jackets, and more. Our designs are
-                        suitable for all occasions, from casual wear to formal
-                        events, making it easy for our clients to express their
-                        unique style and personality. In addition to our
+                        responsible. In addition to our
                         clothing, we also offer a range of accessories,
                         including handbags, jewelry, and scarves. Each accessory
                         is carefully curated to complement our clothing designs,
