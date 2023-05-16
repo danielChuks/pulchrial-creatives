@@ -3,16 +3,103 @@
 .container {
     display: block;
     padding: 20px 20px;
+    font-family: "Familjen Grotesk";
 
-    .image {
+    .logo {
+        display: flex;
         width: 100%;
-        margin-top: 100px;
 
-        img {
-            width: 100%;
+        @include tablet {
+            display: flex;
+            margin-top: 100px;
+            border: 1px solid black !important;
+            font-size: 40px;
+            justify-content: flex-end;
+            padding-right: 40px;
+            font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+                "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+            font-weight: 400;
+            color: #3c1449;
         }
     }
-    .text {
-        width: 100%;
+
+    .item-container {
+        font-family: "Familjen Grotesk";
+
+        @include tablet {
+            display: flex;
+            justify-content: space-around;
+        }
+        .image {
+            width: 100%;
+            margin-top: 30px;
+
+            img {
+                width: 100%;
+            }
+            @include tablet {
+                width: 50%;
+                height: 50%;
+                padding: 20px 20px;
+            }
+        }
+        .text {
+            width: 100%;
+            padding-top: 40px;
+            line-height: 24px;
+            color: #3c1449;
+
+            @include tablet {
+                display: flex;
+                align-items: center;
+                width: 50%;
+                padding: 20px 20px;
+                padding-top: 50px;
+                color: #3c1449;
+                font-size: 20px;
+                line-height: 30px;
+            }
+        }
+    }
+
+    .section-2 {
+        display: block;
+        gap: 50px;
+
+        @include tablet {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .image {
+            width: 100%;
+            margin-top: 30px;
+
+            img {
+                width: 100%;
+            }
+            @include tablet {
+                width: 50%;
+                height: 50%;
+                padding: 20px 20px;
+            }
+        }
+        .text {
+            width: 100%;
+            padding-top: 40px;
+            line-height: 24px;
+            color: #3c1449;
+
+            @include tablet {
+                display: flex;
+                align-items: center;
+                width: 50%;
+                padding: 20px 20px;
+                padding-top: 50px;
+                color: #3c1449;
+                font-size: 20px;
+                line-height: 30px;
+            }
+        }
     }
 }
