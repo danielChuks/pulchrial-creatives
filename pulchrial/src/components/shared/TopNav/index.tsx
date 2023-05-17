@@ -13,10 +13,12 @@ export default function TopNav() {
 
     const toggle = () => {
         setShowSidebar(!showSidebar);
+        showNotificationBar == true ? setNotificaionBar(false) : null;
     };
 
     const displayNotification = () => {
         setNotificaionBar(!showNotificationBar);
+        showSidebar == true ? setShowSidebar(false) : null;
     };
 
     return (
