@@ -9,7 +9,7 @@ export default function Dashboard() {
             <div className={styles["dashboard-container"]}>
                 <div className={styles["content"]}>
                     <div className={styles["bg-content"]}>
-                        <span>Welcome </span> {` to Pulchrial Creatives`}
+                        <span>Welcome </span> {`to Pulchrial Creatives`}
                         <div
                             className={styles["motto"]}
                         >{`Vive imaginationem`}</div>
