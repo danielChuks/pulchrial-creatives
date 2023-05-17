@@ -8,7 +8,7 @@
     padding: 20px;
     width: 50%;
     background-color: aliceblue;
-    height: 91vh;
+    height: calc(100vh - 82px);
     z-index: 9999;
 
     .toggle {
