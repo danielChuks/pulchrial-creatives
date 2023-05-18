@@ -10,20 +10,21 @@
     height: calc(100vh - 60px);
     padding: 50px 40px;
     color: #3c1449;
-    font-family: "";
 
     @include tablet {
-        display: block;
-        justify-content: flex-end;
+        position: fixed;
         padding: 40px;
-        width: 500px;
-        padding: 50px 20px;
+        width: 31%;
+        padding: 40px 20px;
         border: red 1px solid;
+        margin-left: 50%;
+        
     }
 
     .items-container {
         display: block;
         margin-bottom: 20px;
+
 
         .content {
             display: flex;
