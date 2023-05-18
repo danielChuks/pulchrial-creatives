@@ -12,12 +12,12 @@ export default function TopNav() {
     const [showNotificationBar, setNotificaionBar] = useState(false);
 
     const toggle = () => {
-        setShowSidebar(!showSidebar);
+        setShowSidebar((prevState) => !prevState);
         showNotificationBar == true ? setNotificaionBar(false) : null;
     };
 
     const displayNotification = () => {
-        setNotificaionBar(!showNotificationBar);
+        setNotificaionBar((prevState) => !prevState);
         showSidebar == true ? setShowSidebar(false) : null;
     };
 
