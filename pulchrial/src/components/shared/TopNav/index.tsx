@@ -5,7 +5,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 import SideBar from "../SideMenu";
 import { useState } from "react";
 import Link from "next/link";
-import NavigationBar from "../../Notification/NotificationBarItems";
+import NotificationComponent from "@/components/Notification";
 
 export default function TopNav() {
     const [showSidebar, setShowSidebar] = useState(false);
@@ -45,7 +45,7 @@ export default function TopNav() {
                         <Notification onClick={displayNotification} />
                         {showNotificationBar && (
                             <div>
-                                <NavigationBar />
+                                <NotificationComponent />
                             </div>
                         )}
                     </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./index.module.scss";
 
-export default function NavigationBar() {
+export default function NavigationBarItems() {
     return (
         <>
             <div className={styles["container"]}>
