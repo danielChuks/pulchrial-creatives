@@ -8,19 +8,8 @@
     padding: 20px;
     width: 50%;
     background-color: aliceblue;
-    height: calc(100vh - 82px);
+    height: calc(100vh - 90px);
     z-index: 9999;
-
-    .toggle {
-        display: contents;
-        width: 100%;
-        color: white;
-        border: white 1px solid;
-
-        @include tablet {
-            display: none;
-        }
-    }
     .content {
         display: flex;
         flex-direction: column;
