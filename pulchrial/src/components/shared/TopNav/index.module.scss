@@ -88,8 +88,6 @@
 }
 
 .sideBar-wrapper {
-    margin-top: 75px;
-
     @include tablet {
         display: none;
     }

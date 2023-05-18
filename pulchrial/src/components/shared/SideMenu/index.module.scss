@@ -8,8 +8,10 @@
     padding: 20px;
     width: 50%;
     background-color: aliceblue;
-    height: calc(100vh - 80px);
+    height: calc(100vh - 75px);
     z-index: 9999;
+    margin-top: 75px;
+
     .content {
         display: flex;
         flex-direction: column;
@@ -43,7 +45,7 @@
     }
 
     .settings {
-        bottom: 0;
+        margin-bottom: 15px;
         display: flex;
         align-items: center;
         gap: 5px;
