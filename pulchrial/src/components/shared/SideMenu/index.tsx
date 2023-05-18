@@ -7,7 +7,6 @@ import Link from 'next/link';
 export default function SideBar() {
     return (
         <div className={styles['container']}>
-
             <div className={styles['content']}>
                 <div className={styles['florish']}>
                     <div>
