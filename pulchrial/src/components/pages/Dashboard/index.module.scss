@@ -28,14 +28,21 @@
             font-size: 20px;
             font-weight: 550;
             line-height: 30px;
+            font-family: 'Philosopher';
+            
 
             span {
-                color: black;
+                display: none;
+                @include tablet {
+                    display: contents;
+                    color: black;
+                }
             }
             .motto {
-                font-size: 15px;
+                font-size: 20px;
                 font-style: italic;
                 padding-left: 20px;
+                font-family: 'Great Vibes';
             }
             @include tablet {
                 font-size: 40px;
@@ -50,7 +57,7 @@
                 }
                 .motto {
                     font-size: 30px;
-                    font-family: "Dancing Script";
+                    font-family: "Great Vibes";
                     font-style: italic;
                     padding-top: 30px;
                     padding-left: 100px;
@@ -124,7 +131,7 @@
             height: 300px;
             transition: all 1s;
         }
-        img:hover{
+        img:hover {
             transform: scale(1.1);
         }
 

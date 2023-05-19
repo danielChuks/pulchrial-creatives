@@ -4,19 +4,20 @@
     position: absolute;
     width: 100%;
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 22px;
     left: 0;
     background-color: aliceblue;
     height: calc(100vh - 60px);
     padding: 50px 40px;
     color: #3c1449;
 
+
     @include tablet {
         position: fixed;
-        padding: 40px;
         width: 31%;
-        padding: 40px 20px;
+        padding: 50px 20px;
         margin-left: 50%;
+        transition: 0.3s ease-in-out;
     }
 
     .items-container {

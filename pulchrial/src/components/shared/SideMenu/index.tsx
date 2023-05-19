@@ -33,14 +33,6 @@ export default function SideBar() {
                         <div>About us</div>
                     </Link>
                 </div>
-                <div className={styles['contact']}>
-                    <div>
-                        <MdOutlineConnectWithoutContact />
-                    </div>
-                    <Link href={'/about'} className={styles['link']}>
-                        <div>About us</div>
-                    </Link>
-                </div>
             </div>
             <div>
                 <div className={styles['settings']}>
