@@ -28,8 +28,7 @@
             font-size: 20px;
             font-weight: 550;
             line-height: 30px;
-            font-family: 'Philosopher';
-            
+            font-family: "Philosopher";
 
             span {
                 display: none;
@@ -42,13 +41,13 @@
                 font-size: 20px;
                 font-style: italic;
                 padding-left: 20px;
-                font-family: 'Great Vibes';
+                font-family: "Great Vibes";
             }
             @include tablet {
                 font-size: 40px;
                 margin-top: 180px;
                 padding-left: 60px;
-                font-family: "Dancing Script";
+                font-family: "Philosopher";
 
                 span {
                     padding-right: 8px;
@@ -73,6 +72,7 @@
         font-size: 15px;
         color: #3c1449;
         line-height: 30px;
+        font-family: "Philosopher";
 
         img {
             width: 100%;
@@ -125,6 +125,7 @@
         padding-bottom: 50px;
         color: #3c1449;
         line-height: 30px;
+        font-family: "Philosopher";
 
         img {
             width: 100%;

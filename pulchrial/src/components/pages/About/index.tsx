@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./index.module.scss";
 import { TopNav } from "@/components/shared/TopNav";
 
-export  function AboutPage() {
+export function AboutPage() {
     return (
         <>
             <TopNav />
@@ -21,7 +21,7 @@ export  function AboutPage() {
                         timeless designs. The brand was founded with a vision to
                         create clothing that is not only beautiful but also
                         empowering and reflects the unique personality of the
-                        wearer. 
+                        wearer.
                     </div>
                 </div>
                 <div className={styles["section-2"]}>
@@ -39,19 +39,9 @@ export  function AboutPage() {
                         craftsmanship. We also prioritize sustainability and
                         ethical practices in our production process, ensuring
                         that our clothing is not only beautiful but also
-                        responsible. In addition to our
-                        clothing, we also offer a range of accessories,
-                        including handbags, jewelry, and scarves.
-                        {/* Each accessory is carefully curated to complement our clothing designs,
-                        adding the perfect finishing touch to any outfit. In
-                        conclusion, Pulchrial Creatives is a fashion brand that
-                        redefines fashion with elegance, creativity, and
-                        timeless designs. We are committed to creating clothing
-                        that not only looks good but also feels good, empowering
-                        our clients to express their unique personality and
-                        style. With our dedication to quality, sustainability,
-                        and ethical practices, we are setting a new standard for
-                        the fashion industry. */}
+                        responsible. In addition to our clothing, we also offer
+                        a range of accessories, including handbags, jewelry, and
+                        scarves.
                     </div>
                 </div>
             </div>
