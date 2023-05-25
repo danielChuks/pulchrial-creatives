@@ -1,5 +1,12 @@
 import styles from "./index.module.scss";
+import { TopNav } from "@/components/shared/TopNav";
+import { Cards } from "./Displaycards";
 
-export default function ContactComponent() {
-    return <div className={styles["container"]}>This is contact page ....</div>;
+export  function ContactComponent() {
+    return (
+        <div className={styles["container"]}>
+            <TopNav />
+            
+        </div>
+    );
 }

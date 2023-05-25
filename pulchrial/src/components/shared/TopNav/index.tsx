@@ -7,7 +7,7 @@ import { useState } from "react";
 import Link from "next/link";
 import NotificationComponent from "@/components/Notification";
 
-export default function TopNav() {
+export function TopNav() {
     const [showSidebar, setShowSidebar] = useState(false);
     const [showNotificationBar, setNotificaionBar] = useState(false);
 

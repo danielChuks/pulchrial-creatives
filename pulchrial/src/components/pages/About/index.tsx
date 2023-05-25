@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./index.module.scss";
-import TopNav from "@/components/shared/TopNav";
+import { TopNav } from "@/components/shared/TopNav";
 
-export default function AboutPage() {
+export  function AboutPage() {
     return (
         <>
             <TopNav />
