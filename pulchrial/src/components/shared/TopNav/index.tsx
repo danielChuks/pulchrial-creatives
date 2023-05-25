@@ -41,7 +41,7 @@ export default function TopNav() {
                             <div className={styles["link"]}>Contact</div>
                         </Link>
                     </div>
-                    <div className={styles['notifiaction']}>
+                    <div className={styles["notifiaction"]}>
                         <Notification onClick={displayNotification} />
                         {showNotificationBar && (
                             <div>
