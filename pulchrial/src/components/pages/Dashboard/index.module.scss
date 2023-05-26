@@ -2,16 +2,16 @@
 .dashboard-container {
     display: block;
     justify-content: center;
-    padding: 00px 20px;
+    padding: 0px 20px;
     gap: 50px;
     position: relative;
     padding-top: 68px;
 
     .content {
         display: flex;
-        font-family: "rancho";
+        font-family: "Dancing Script";
         font-weight: 200px;
-        font-size: 20px;
+        font-size: 15px;
         padding-top: 20px;
         color: #3c1449;
         position: relative;
@@ -28,7 +28,7 @@
             font-size: 20px;
             font-weight: 550;
             line-height: 30px;
-            font-family: "rancho";
+            font-family: "Dancing Script";
 
             span {
                 display: none;
@@ -41,22 +41,22 @@
                 font-size: 20px;
                 font-style: italic;
                 padding-left: 20px;
-                font-family: "rancho";
+                font-family: "Dancing Script";
             }
             @include tablet {
                 font-size: 40px;
                 margin-top: 180px;
                 padding-left: 60px;
-                font-family: "rancho";
+                font-family: "Dancing Script";
 
                 span {
                     padding-right: 8px;
                     color: black;
-                    font-family: "rancho";
+                    font-family: "Dancing Script";
                 }
                 .motto {
                     font-size: 30px;
-                    font-family: "rancho";
+                    font-family: "Dancing Script";
                     font-style: italic;
                     padding-top: 30px;
                     padding-left: 100px;
@@ -68,10 +68,10 @@
     .fashion-display {
         display: block;
         padding-top: 50px;
-        font-size: 20px;
+        font-size: 15px;
         color: #3c1449;
         line-height: 30px;
-        font-family: "Rancho";
+        font-family: "Dancing Script";
 
         img {
             width: 100%;
@@ -107,6 +107,7 @@
                 align-items: center;
                 width: 702px;
                 color: #3c1449;
+                font-size: 20px;
                 border-radius: 10px;
 
                 .styling-text {
@@ -119,11 +120,11 @@
     .fashion-display-2 {
         display: block;
         padding-top: 30px;
-        font-size: 20px;
+        font-size: 15px;
         padding-bottom: 50px;
         color: #3c1449;
         line-height: 30px;
-        font-family: "Rancho";
+        font-family: "Dancing Script";
 
         img {
             width: 100%;
@@ -142,6 +143,7 @@
             display: flex;
             gap: 20px;
             flex-direction: row-reverse;
+            font-family: "Dancing Script";
 
             .fash-col-1 {
                 display: flex;
@@ -161,7 +163,6 @@
                 color: #3c1449;
                 font-size: 20px;
                 width: 702px;
-                font-family: "Rancho";
 
                 .styling-text {
                     width: 100%;
