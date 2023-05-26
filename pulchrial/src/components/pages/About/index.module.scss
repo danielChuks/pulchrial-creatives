@@ -3,7 +3,7 @@
 .container {
     display: block;
     padding: 20px 20px;
-    font-family: "Familjen Grotesk";
+    font-family: "Rancho";
     position: relative;
     padding-top: 100px;
 
@@ -15,7 +15,7 @@
         display: flex;
         width: 100%;
         font-size: 20px;
-        font-family: "Philosopher";
+        font-family: "Rancho";
         padding-left: 20px;
         font-style: italic;
         color: #3c1449;
@@ -27,14 +27,14 @@
             justify-content: flex-end;
             padding-right: 150px;
             font-style: italic;
-            font-family: "Philosopher";
+            font-family: "Rancho";
             font-weight: 400;
             color: #3c1449;
         }
     }
 
     .item-container {
-        font-family: "Philosopher";
+        font-family: "Rancho";
 
         @include tablet {
             display: flex;
@@ -77,7 +77,7 @@
                 color: #3c1449;
                 font-size: 20px;
                 line-height: 30px;
-                font-family: "Philosopher";
+                font-family: "Rancho";
             }
         }
     }
@@ -111,7 +111,7 @@
             padding-top: 40px;
             line-height: 30px;
             color: #3c1449;
-            font-family: "Philosopher";
+            font-family: "Rancho";
 
             @include tablet {
                 display: flex;
@@ -122,7 +122,7 @@
                 color: #3c1449;
                 font-size: 20px;
                 line-height: 30px;
-                font-family: "Philosopher";
+                font-family: "Rancho";
             }
         }
     }

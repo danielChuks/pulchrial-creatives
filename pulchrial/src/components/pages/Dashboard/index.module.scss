@@ -9,7 +9,7 @@
 
     .content {
         display: flex;
-        font-family: "Philosopher";
+        font-family: "Rancho";
         font-weight: 200px;
         font-size: 20px;
         padding-top: 20px;
@@ -28,7 +28,7 @@
             font-size: 20px;
             font-weight: 550;
             line-height: 30px;
-            font-family: "Philosopher";
+            font-family: "Rancho";
 
             span {
                 display: none;
@@ -41,22 +41,22 @@
                 font-size: 20px;
                 font-style: italic;
                 padding-left: 20px;
-                font-family: "Philosopher";
+                font-family: "Rancho";
             }
             @include tablet {
                 font-size: 40px;
                 margin-top: 180px;
                 padding-left: 60px;
-                font-family: "Philosopher";
+                font-family: "Rancho";
 
                 span {
                     padding-right: 8px;
                     color: black;
-                    font-family: "Dancing Script";
+                    font-family: "Rancho";
                 }
                 .motto {
                     font-size: 30px;
-                    font-family: "Great Vibes";
+                    font-family: "Rancho";
                     font-style: italic;
                     padding-top: 30px;
                     padding-left: 100px;
@@ -72,7 +72,7 @@
         font-size: 15px;
         color: #3c1449;
         line-height: 30px;
-        font-family: "Philosopher";
+        font-family: "Rancho";
 
         img {
             width: 100%;
@@ -125,7 +125,7 @@
         padding-bottom: 50px;
         color: #3c1449;
         line-height: 30px;
-        font-family: "Philosopher";
+        font-family: "Rancho";
 
         img {
             width: 100%;
@@ -163,6 +163,7 @@
                 color: #3c1449;
                 font-size: 20px;
                 width: 702px;
+                font-family: "Rancho";
 
                 .styling-text {
                     width: 100%;
