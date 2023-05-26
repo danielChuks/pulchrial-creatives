@@ -9,7 +9,7 @@
 
     .content {
         display: flex;
-        font-family: "Dancing Script";
+        font-family: "Philosopher";
         font-weight: 200px;
         font-size: 20px;
         padding-top: 20px;
@@ -41,7 +41,7 @@
                 font-size: 20px;
                 font-style: italic;
                 padding-left: 20px;
-                font-family: "Great Vibes";
+                font-family: "Philosopher";
             }
             @include tablet {
                 font-size: 40px;
